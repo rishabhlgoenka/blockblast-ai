@@ -1,0 +1,21 @@
+# Block Blast - Python Requirements
+# Updated for PPO + CNN implementation
+
+# Core dependencies
+numpy>=1.20.0
+
+# For RL training with DQN (original implementation)
+torch>=2.0.0
+
+# For PPO + CNN training
+stable-baselines3>=2.0.0
+gymnasium>=0.28.0
+
+# For plotting training curves
+matplotlib>=3.5.0
+
+# For pygame frontend (human play)
+pygame>=2.0.0
+
+# For testing (optional)
+pytest>=7.0.0
